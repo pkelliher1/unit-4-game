@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+</head>
+<body>
+    <h1><br>Crystal Collector</br></h1>
+
+    <div id="instructions">
+        <p class="list">
+        <ul>
+            <li>Use your logic and memory skills to calculate the correct combination of clicks
+                that will exactly match the displayed random number.</li>
+            <li>Each crystal below is associated with a value from 1 to 12. </li>
+            <li>Both the value of each crystal and the random number will change each round.</li>
+            <li>Each correct combination will earn you a point.</li>
+            <li>Lose and it's game over and the score resets.</li>
+            <li>Try to beat your high score.</li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="sub-header">
+        Random Number
+        <div id="randomNumber"></div>
+    </div>
+    
+    <div id="sub-header">
+        Match
+        <div id="score"></div>
+    </div>
+
+    <div id="sub-header">
+        Points
+        <div id="points"></div>
+    </div>
+
+    <div id="crystals">
+        Crystals
+        <div id="crystal-images">
+            <img id="crystal-1" src="assets/images/red.jpeg">
+            <img id="crystal-2" src="assets/images/blue.jpeg">
+            <img id="crystal-3" src="assets/images/orange.jpeg">
+            <img id="crystal-4" src="assets/images/purple.jpeg">
+        </div>
+    </div>  
+     <!-- jQuery Link -->
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <!-- Game Logic -->
+     <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
